@@ -1,0 +1,40 @@
+---
+title: "Assignment_Vis_R"
+author: "Aashna"
+date: "2026-10-09"
+output: html_document
+---
+
+
+```{r setup, include=TRUE}
+
+library(tidyverse) 
+library(psych)
+library(readxl)
+library(gt)
+library(janitor)
+library(foreign)
+library(janitor)
+library(httr)
+library(glue)
+library(zip)
+
+data_peaks <- read.csv ("peaks_tidy.csv")
+data_exped <- read.csv(
+  "exped_tidy.csv",
+  fileEncoding = "Windows-1252"
+)
+
+####Visualization 1:####
+
+
+
+####Visualization 2:####
+
+####Visualization 3:####
+
+####Visulization 4:####
+
+
+```
+
